@@ -6,10 +6,6 @@ import * as MediaLibrary from 'expo-media-library';
 import * as Permissions from 'expo-permissions'
 import { FlatList } from 'react-native-gesture-handler';
 
-
-
-
-
 const  Photogallery = props => {
 
 
@@ -55,20 +51,7 @@ console.log("finished")
     
      }
 
-     function collectphotos(ph1){
-      console.log(ph1)
-      
-        const ph ={
-          
-          id:ph1,
-          bid:1,
-        }
-  
-          setbid(currentfile => [...currentfile,ph])
-          
-        
-      
-     }
+     
 
      function bdwidth (id){
        setpress(false)
